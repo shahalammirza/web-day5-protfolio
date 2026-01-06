@@ -58,7 +58,7 @@ header{
     background-color: #FFF8F3;
     padding-top: 50px;
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
 }
 
@@ -208,6 +208,7 @@ nav ul li a:hover{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     margin-top: 50px;
+    flex-grow: 1;
 }
 .skills_card img{
     max-width: 44px;
@@ -224,4 +225,120 @@ nav ul li a:hover{
     line-height: 28px;
     padding-top: 20px;
     max-width: 201px;
+}
+
+/* resume area start */
+.resume_wrapper{
+    padding-top: 130px;
+}
+
+.edication_wrapper{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.education {
+    flex-grow: 1;
+}
+.education .resume_heading h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.resume_card{
+    padding-top: 30px;
+    max-width: 511px;
+    margin-right: 47px;
+}
+.resume_card h3{
+    font-size: 25px;
+    color: #474747;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.resume_card .p1{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.resume_card .p2 {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    max-width: 461px;
+}
+.education hr{
+    margin-top: 30px;
+}
+.education_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* footer area */
+.footer_wrapper{
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 0;
+}
+
+.footer_container{
+    display: flex;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.social h2,
+.form h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #181818;
+}
+.social h2{
+    padding-bottom: 20px;
+}
+.social p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    max-width: 562px;
+    padding-bottom: 30px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.icons img{
+    width: 24px;
+}
+
+.form h2{
+    padding-bottom: 28px;
+}
+.input_box{
+    padding-bottom: 24px;
+}
+.input_box input,
+.input_box textarea{
+    height: 64px;
+    width: 461px;
+    background-color: #fff;
+    border: none;
+    padding: 18px 30px;
+}
+.input_box textarea:focus,
+.input_box input:focus{
+    border: none;
+    outline: none;
+}
+
+.input_box textarea{
+    resize: none;
+    height: 180px;
 }
